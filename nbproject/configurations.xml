@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="cg-work">
+      <df name="cg">
+        <df name="examples">
+          <df name="convex_hull">
+            <in>andrew_hull.cpp</in>
+            <in>graham_hull.cpp</in>
+          </df>
+          <df name="operations">
+            <in>triangle_contains_point.cpp</in>
+          </df>
+          <df name="viewer">
+            <in>viewer.cpp</in>
+          </df>
+        </df>
+        <df name="include">
+          <df name="cg">
+            <df name="common">
+              <in>range.h</in>
+            </df>
+            <df name="convex_hull">
+              <in>andrew.h</in>
+              <in>graham.h</in>
+            </df>
+            <df name="io">
+              <in>io_utils.h</in>
+              <in>point.h</in>
+              <in>segment.h</in>
+            </df>
+            <df name="operations">
+              <df name="contains">
+                <in>convex_contour_point.h</in>
+                <in>segment_point.h</in>
+                <in>triangle_point.h</in>
+              </df>
+              <df name="has_intersection">
+                <in>rectangle_segment.h</in>
+                <in>segment_segment.h</in>
+                <in>triangle_segment.h</in>
+              </df>
+              <in>orientation.h</in>
+            </df>
+            <df name="primitives">
+              <in>contour.h</in>
+              <in>point.h</in>
+              <in>range.h</in>
+              <in>rectangle.h</in>
+              <in>segment.h</in>
+              <in>triangle.h</in>
+              <in>vector.h</in>
+            </df>
+            <df name="visualization">
+              <in>draw_util.h</in>
+              <in>viewer.h</in>
+              <in>viewer_adapter.h</in>
+            </df>
+          </df>
+          <df name="misc">
+            <in>random_utils.h</in>
+          </df>
+        </df>
+        <df name="src">
+          <df name="visualization">
+            <in>draw_util.cpp</in>
+            <in>drawer_impl.cpp</in>
+            <in>drawer_impl.h</in>
+            <in>main_window.cpp</in>
+            <in>main_window.h</in>
+            <in>printer_impl.cpp</in>
+            <in>printer_impl.h</in>
+            <in>visualization.cpp</in>
+          </df>
+          <in>stdafx.h</in>
+        </df>
+        <df name="tests">
+          <in>contains.cpp</in>
+          <in>convex_hull.cpp</in>
+          <in>has_intersection.cpp</in>
+          <in>orientation.cpp</in>
+          <in>random_utils.h</in>
+        </df>
+      </df>
+      <df name="practice-1">
+        <in>find-points.cpp</in>
+      </df>
+      <df name="tmp">
+        <in>tmp.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>build/Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>build/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>build</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>build/CMakeFiles/CMakeDetermineCompilerABI_C.bin</executablePath>
+          <ccTool>
+            <standard>8</standard>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="cg/examples/convex_hull/andrew_hull.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/examples/convex_hull/graham_hull.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/examples/operations/triangle_contains_point.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/examples/viewer/viewer.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/include/cg/common/range.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/convex_hull/andrew.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/convex_hull/graham.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/io/io_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/io/point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/io/segment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/operations/contains/convex_contour_point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/operations/contains/segment_point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/operations/contains/triangle_point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/operations/has_intersection/rectangle_segment.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/operations/has_intersection/segment_segment.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/operations/has_intersection/triangle_segment.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/operations/orientation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/primitives/contour.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/primitives/point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/primitives/range.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/primitives/rectangle.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/primitives/segment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/primitives/triangle.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/primitives/vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/include/cg/visualization/draw_util.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/visualization/viewer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/cg/visualization/viewer_adapter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/include/misc/random_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/src/stdafx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/src/visualization/draw_util.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/src/visualization/drawer_impl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/src/visualization/drawer_impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/src/visualization/main_window.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/src/visualization/main_window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cg/src/visualization/printer_impl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/src/visualization/printer_impl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cg/src/visualization/visualization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/tests/contains.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/tests/convex_hull.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/tests/has_intersection.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/tests/orientation.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="cg/tests/random_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="cg-work/cg">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/qt4</pElem>
+            <pElem>/usr/include/qt4/QtOpenGL</pElem>
+            <pElem>/usr/include/qt4/QtGui</pElem>
+            <pElem>/usr/include/qt4/QtCore</pElem>
+            <pElem>cg/include</pElem>
+            <pElem>/usr/local/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>QT_CORE_LIB</Elem>
+            <Elem>QT_DEBUG</Elem>
+            <Elem>QT_GUI_LIB</Elem>
+            <Elem>QT_OPENGL_LIB</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="cg-work/cg/examples/convex_hull">
+        <ccTool>
+          <incDir>
+            <pElem>build/cg/examples/convex_hull</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="cg-work/cg/examples/operations">
+        <ccTool>
+          <incDir>
+            <pElem>build/cg/examples/operations</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="cg-work/cg/examples/viewer">
+        <ccTool>
+          <incDir>
+            <pElem>build/cg/examples/viewer</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="cg-work/cg/src">
+        <ccTool>
+          <incDir>
+            <pElem>cg/src</pElem>
+            <pElem>build/cg/src</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="cg-work/cg/tests">
+        <ccTool>
+          <incDir>
+            <pElem>build/cg/tests</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="cg-work/practice-1">
+        <ccTool>
+          <incDir>
+            <pElem>cg/include</pElem>
+            <pElem>build/practice-1</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="cg-work/tmp">
+        <ccTool>
+          <incDir>
+            <pElem>cg/include</pElem>
+            <pElem>build/tmp</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="practice-1/find-points.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="tmp/tmp.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

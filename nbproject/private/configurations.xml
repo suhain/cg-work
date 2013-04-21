@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="cg-work">
+      <df name="build">
+        <df name="cg">
+          <df name="CMakeFiles">
+          </df>
+          <df name="examples">
+            <df name="CMakeFiles">
+            </df>
+            <df name="convex_hull">
+              <df name="CMakeFiles">
+                <df name="andrew_hull.dir">
+                </df>
+                <df name="graham_hull.dir">
+                </df>
+              </df>
+            </df>
+            <df name="operations">
+              <df name="CMakeFiles">
+                <df name="triangle_contains_point.dir">
+                </df>
+              </df>
+            </df>
+            <df name="viewer">
+              <df name="CMakeFiles">
+                <df name="viewer-example.dir">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="include">
+            <df name="CMakeFiles">
+              <df name="visualization_headers.dir">
+              </df>
+            </df>
+          </df>
+          <df name="src">
+            <df name="CMakeFiles">
+              <df name="visualization.dir">
+                <df name="visualization">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="tests">
+            <df name="CMakeFiles">
+              <df name="cg-test.dir">
+              </df>
+              <df name="cg_test_headers.dir">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="CMakeFiles">
+          <df name="CMakeTmp">
+            <df name="CMakeFiles">
+              <df name="cmTryCompileExec.dir">
+              </df>
+            </df>
+          </df>
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="practice-1">
+          <df name="CMakeFiles">
+            <df name="find-points.dir">
+            </df>
+          </df>
+        </df>
+        <df name="tmp">
+          <df name="CMakeFiles">
+            <df name="tmp.dir">
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="cg">
+        <df name="CMake">
+          <df name="Modules">
+          </df>
+        </df>
+        <df name="examples">
+          <df name="convex_hull">
+            <in>andrew_hull.cpp</in>
+            <in>graham_hull.cpp</in>
+          </df>
+          <df name="operations">
+            <in>triangle_contains_point.cpp</in>
+          </df>
+          <df name="viewer">
+            <in>viewer.cpp</in>
+          </df>
+        </df>
+        <df name="include">
+          <df name="cg">
+            <df name="common">
+              <in>range.h</in>
+            </df>
+            <df name="convex_hull">
+              <in>andrew.h</in>
+              <in>graham.h</in>
+            </df>
+            <df name="io">
+              <in>io_utils.h</in>
+              <in>point.h</in>
+              <in>range.h</in>
+              <in>rectangle.h</in>
+              <in>segment.h</in>
+              <in>triangle.h</in>
+              <in>vector.h</in>
+            </df>
+            <df name="operations">
+              <df name="contains">
+                <in>contour_point.h</in>
+                <in>convex_contour_point.h</in>
+                <in>segment_point.h</in>
+                <in>triangle_point.h</in>
+              </df>
+              <df name="has_intersection">
+                <in>rectangle_segment.h</in>
+                <in>segment_segment.h</in>
+                <in>triangle_segment.h</in>
+              </df>
+              <in>orientation.h</in>
+            </df>
+            <df name="primitives">
+              <in>contour.h</in>
+              <in>point.h</in>
+              <in>range.h</in>
+              <in>rectangle.h</in>
+              <in>segment.h</in>
+              <in>triangle.h</in>
+              <in>vector.h</in>
+            </df>
+            <df name="visualization">
+              <in>draw_util.h</in>
+              <in>viewer.h</in>
+              <in>viewer_adapter.h</in>
+            </df>
+          </df>
+          <df name="misc">
+            <in>random_utils.h</in>
+          </df>
+        </df>
+        <df name="src">
+          <df name="visualization">
+            <in>draw_util.cpp</in>
+            <in>drawer_impl.cpp</in>
+            <in>drawer_impl.h</in>
+            <in>main_window.cpp</in>
+            <in>main_window.h</in>
+            <in>printer_impl.cpp</in>
+            <in>printer_impl.h</in>
+            <in>visualization.cpp</in>
+          </df>
+          <in>stdafx.h</in>
+        </df>
+        <df name="tests">
+          <in>contains.cpp</in>
+          <in>convex_hull.cpp</in>
+          <in>has_intersection.cpp</in>
+          <in>orientation.cpp</in>
+          <in>random_utils.h</in>
+        </df>
+      </df>
+      <df name="practice-1">
+        <in>find-points.cpp</in>
+      </df>
+      <df name="tmp">
+        <in>CMakeLists.txt</in>
+        <in>tmp.cpp</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>build/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>build</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
